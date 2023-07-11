@@ -5,26 +5,24 @@ body{
 }
 .header{
     background-color: rgba(229, 84, 115, 0.10);
-    
-    height: 700px;
-    margin: none;
+    height: 650px;
+    margin-bottom: 100px;
     
 }
 
 .banner{
-    padding: 150px 200px 150px 200px;
+    padding: 100px 200px 150px 190px;
     display: flex;
 }
 .banner-title{
     font-size: 50px;
     display: flex;
-    width: 450px
+    width: 460px
 }
 .banner-description{
 color: rgba(39, 39, 39, 0.60);
-font-size: 18px;
+font-size: 12px;
 weight: 30px;
-padding: ;
 width: 634px;
 }
 .btn-primary{
@@ -36,8 +34,100 @@ width: 634px;
     border-radius: 8px;
     background-color: #E55473;
 }
-header>div>img{
+.banner-image{
     
     display: flex;
     width: 436px;
+    
+    position: right;
 }
+
+/* main section style */
+
+.featured{
+    display: block;
+    text-align: center;
+}
+
+.section-title{
+    text-align: center;
+    font-size: 25px;
+    color: #272727;
+}
+.section-description{
+    text-align: center;
+    font-size: 12px;
+    color: rgba(39, 39, 39, 0.60);
+}
+
+.img-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0px 200px 0px 200px;
+    text-decoration-line: underline;
+    font-size: 15px;
+    
+}
+.img-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+    
+
+    }
+    
+
+    .first{
+        display: flex;
+        background-color: rgba(167, 33, 98, 0.15);
+        border: 300px;
+        border-radius: 300px 300px 0px 0px;
+    }
+    .second{
+        display: flex;
+        background-color: rgba(5, 151, 160, 0.15);
+        border-radius: 300px 300px 0px 0px;
+    }
+    .third{
+        display: flex;
+        background-color: rgba(71, 125, 17, 0.15);
+        border-radius: 300px 300px 0px 0px;
+    }
+    .main-container{
+                  text-align: left;
+                  margin-top: 150px;
+                  background-color:rgba(229, 84, 115, 0.10);
+                  width: 1922px;
+                  height: 350px;
+                  padding-top: 200px;
+                  padding-right: 400px;
+                  /* text-align: center; */
+
+    }
+    .section-title-1{
+        color: #272727;
+        text-align: center;
+        padding-right: 1000px;
+    }
+
+    .off{
+        color: #E55473;
+    }
+  
+    .section-description-1{
+        text-align: center;
+        font-size: 12px;
+        padding-right: 1000px;
+    }
+    .btn-primary-1{
+        border: none;
+    color: var(--white-color, #FFF);
+    font-size: 13px;
+    padding: 14px 30px 14px 30px ;
+    border-radius: 8px;
+    background-color: #E55473;
+    text-align: center;
+    }
