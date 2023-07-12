@@ -5,8 +5,12 @@ body{
 }
 .header{
     background-color: rgba(229, 84, 115, 0.10);
-    height: 650px;
+    height: 561px;
     margin-bottom: 100px;
+    background-image: url('../Flower Asset/pngwing\ 10.png');
+    background-repeat: no-repeat;
+    background-size: 400px 500px;
+    background-position: top 60px right 330px;
     
 }
 
@@ -29,23 +33,15 @@ width: 634px;
     border: none;
     color: var(--white-color, #FFF);
     font-size: 13px;
-    font-weight: 700;
     padding: 14px 30px 14px 30px ;
     border-radius: 8px;
     background-color: #E55473;
 }
-.banner-image{
-    
-    display: flex;
-    width: 436px;
-    
-    position: right;
-}
+
 
 /* main section style */
 
 .featured{
-    display: block;
     text-align: center;
 }
 
@@ -64,18 +60,16 @@ width: 634px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin: 0px 200px 0px 200px;
+    margin: 0px 260px 0px 272px;
     text-decoration-line: underline;
     font-size: 15px;
+    margin-bottom: 0px;
     
 }
 .img-container{
     display: flex;
     align-items: center;
-    justify-content: center;
-   
-    
-    
+    justify-content: center;  
 
     }
     
@@ -83,34 +77,89 @@ width: 634px;
     .first{
         display: flex;
         background-color: rgba(167, 33, 98, 0.15);
-        border: 300px;
         border-radius: 300px 300px 0px 0px;
+        width: 250px;
+        height: 310px;
+        margin: 10px;
+        
     }
     .second{
         display: flex;
         background-color: rgba(5, 151, 160, 0.15);
         border-radius: 300px 300px 0px 0px;
+        width: 250px;
+        height: 310px;
+        margin: 10px;
     }
     .third{
         display: flex;
         background-color: rgba(71, 125, 17, 0.15);
         border-radius: 300px 300px 0px 0px;
+        width: 250px;
+        height: 310px;
+        margin: 10px;
     }
-    .main-container{
-                  text-align: left;
-                  margin-top: 150px;
-                  background-color:rgba(229, 84, 115, 0.10);
-                  width: 1922px;
-                  height: 350px;
-                  padding-top: 200px;
-                  padding-right: 400px;
-                  /* text-align: center; */
+
+
+               /* optional section style */
+
+
+               .optional-container{
+                display: flex;
+                text-align: center;
+                background-color: rgba(39, 39, 39, 0.05);
+                background-image: url('../Flower Asset/Group\ 57.png'),
+                                  url('../Flower Asset/Group\ 58.png'),
+                                  url('../Flower Asset/Group\ 59.png');
+                 background-repeat: no-repeat;
+                background-size: 50px 50px; 
+                background-position: 160px 40px,420px 40px,640px 40px;
+                width: auto;
+                height: 80px;  
+                margin-top: 80px;
+                margin-right: 362px;  
+                margin-left: 362px;
+                justify-content: space-evenly;  
+                text-decoration-line: underline;
+                padding: 80px 20px 0px 20px;
+            }
+            .fst{
+                color: rgba(39, 39, 39, 0.80);
+                font-size: 15px;
+                justify-content: space-around;
+            }
+            .scnd{
+            color: rgba(39, 39, 39, 0.80);
+            font-size: 15px;
+            }
+        
+            .trd{
+                color: rgba(39, 39, 39, 0.80);
+                font-size: 15px;
+            }
+
+
+                    /* hot deal style */
+
+    .section-container{
+         
+        margin-top: 100px;                
+        background-color:rgba(229, 84, 115, 0.05);       
+        height: 300px;
+        padding-top: 150px;
+                  
+        background-image: url('../Flower Asset/pngwing 8.png');
+        background-repeat: no-repeat;
+        background-position: top 70px right 400px;
+        background-size: 210px 310px;
+        margin-bottom: 0px;
+                  
 
     }
     .section-title-1{
         color: #272727;
-        text-align: center;
-        padding-right: 1000px;
+        margin-left: 410px;
+        font-size: 25px;
     }
 
     .off{
@@ -118,9 +167,14 @@ width: 634px;
     }
   
     .section-description-1{
-        text-align: center;
+        margin-left: 390px;
         font-size: 12px;
-        padding-right: 1000px;
+        color: rgba(39, 39, 39, 0.60);
+    }
+    .section-description-2{
+        margin-left: 468px;
+        font-size: 12px;
+        color: rgba(39, 39, 39, 0.60);
     }
     .btn-primary-1{
         border: none;
@@ -129,5 +183,124 @@ width: 634px;
     padding: 14px 30px 14px 30px ;
     border-radius: 8px;
     background-color: #E55473;
-    text-align: center;
+    margin-left: 528px;
     }
+
+                /* section inta style */
+
+
+    .insta-container{
+        margin-top: 100px;
+        text-align: center;
+        background-image: url('../Flower Asset/Flower\ 01.png'),
+                          url('../Flower Asset/Rectangle\ 4.png'),
+                          url('../Flower Asset/Rectangle\ 5.png'),
+                          url('../Flower Asset/Rectangle\ 6.png');
+                        
+        background-repeat: no-repeat;
+        background-size: 242px 280px;
+        background-position: 250px 130px,508px 130px,766px 130px,1024px 130px;
+        height: 500px;
+
+    }
+    .insta-title{
+        color: #272727;
+        font-size: 25px;
+        margin-bottom: 15px;
+
+    }
+    .insta-description{
+        margin-top: 0px;
+        color: rgba(39, 39, 39, 0.60);
+        font-size: 12px;
+    }
+
+                    
+                        /* input style */
+
+    .input-container{
+        background-image: url('../Flower Asset/Rectangle\ 9.png');
+        background-repeat: no-repeat;
+        height: 300px;
+        padding-top: 70px;
+        text-align: center;
+        background-size: 1020px 330px;
+        background-position: 249px 5px;
+    }
+
+    .input-title{
+    font-size: 25px;
+    color: #272727;
+    }
+
+    .input-description{
+       font-size: 12px;
+       color: rgba(39, 39, 39, 0.60);
+       
+    }
+
+    .input-form{
+        border: none;
+        padding: 16px 357px 16px 10px;
+        border-radius: 5px;
+        font-size: 10px;
+        text-align: left;
+        margin-top: 20px;       
+
+    }
+
+    .btn-primary-2{
+        border: none;
+        color: var(--white-color, #FFF);
+        font-size: 13px;
+        padding: 14px 30px 14px 30px ;
+        border-radius: 8px;
+        background-color: #E55473;
+        align-items: center;
+    }
+
+                         /* footer style */
+
+
+.foot-container{
+    background-color: #111010;
+    background-size: ;
+    height: 150px;
+    width: auto;
+    padding: 80px;
+    margin-top: 60px;
+
+}
+
+.foot-title{
+     color: #E55473;
+     font-size: 30px;
+     text-align: center;
+     
+}
+.shop{
+     color: #FFFFFF;
+     font-size: 30px;
+
+}
+
+.foot-description-1{
+     color: rgba(255, 255, 255, 0.90);
+     font-size: 12px;
+     text-align: center;
+     
+}
+
+.foot-description-2{
+    color: rgba(255, 255, 255, 0.90);
+     font-size: 12px;
+     text-align: center;
+}
+
+.foot-description-3{
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    margin-top: 40px;
+    
+}
